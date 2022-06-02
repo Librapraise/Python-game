@@ -33,7 +33,7 @@ while True:
     print("Your Scissor's beats Computers paper! You Win!")
    
   elif PlayerOne == 's' and Computer == 'r':
-    print('Computers Rock beats your paper! You Lose!')
+    print("Computer's Rock beats your paper! You Lose!")
     Scorecomputer = Scorecomputer + 1
 
   print('Do you want to keep playing?')
