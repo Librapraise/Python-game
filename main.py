@@ -2,10 +2,10 @@ import random
 ScoreAi = 0
 ScorePlayer = 0
 while True:
-  print('Hi player one, You can either be')
-  print('r) Rock')
-  print('p) Paper')
-  print('s) Scissors')
+  print('Hi player one, you can either be')
+  print('r for Rock')
+  print('p for Paper')
+  print('s for Scissors')
   PlayerOne = input('Pick r, p, or s. ')
   Computer = random.choice(['r', 'p', 's'])
   print('The Computer chose ' + str(Computer))
