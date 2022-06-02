@@ -14,23 +14,23 @@ while True:
     Scorecomputer = Scorecomputer 
     ScorePlayer = ScorePlayer 
   elif PlayerOne == 'r' and Computer == 'p':
-    print(' Computers Paper beats your rock! You lose! ')
+    print(" Computer's Paper beats your rock! You lose! ")
     Scorecomputer = Scorecomputer + 1
    
   elif PlayerOne == 'r' and Computer == 's':
-    print('Your Rock beats Computers scissors! You win!')
+    print("Your Rock beats Computer's scissors! You win!")
     ScorePlayer = ScorePlayer + 1
    
   elif PlayerOne == 'p' and Computer == 's':
-    print('Computers Scissors beats your paper! You Lose!')
+    print("Computer's Scissors beats your paper! You Lose!")
     Scorecomputer = Scorecomputer + 1
     
   elif PlayerOne == 'p' and Computer == 'r':
-    print('Your Paper beats Computers rock! You Win!')
+    print("Your Paper beats Computer's rock! You Win!")
     ScorePlayer = ScorePlayer + 1
     
   elif PlayerOne == 's' and Computer == 'p':
-    print('Your Scissors beats Computers paper! You Win!')
+    print("Your Scissor's beats Computers paper! You Win!")
    
   elif PlayerOne == 's' and Computer == 'r':
     print('Computers Rock beats your paper! You Lose!')
