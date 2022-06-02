@@ -45,7 +45,7 @@ while True:
     print('You won ' + str(ScorePlayer) + ' games and the computer won ' + str(Scorecomputer) + ' games.')
     if ScorePlayer > Scorecomputer:
       print('Congratulations! You win!')
-    elif ScorePlayer < ScoreAi:
+    elif ScorePlayer < Scorecomputer:
       print('The computer won most of the games. You lose!')
     else:
       print('Tie!')
