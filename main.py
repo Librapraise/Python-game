@@ -11,8 +11,8 @@ while True:
   print('The Computer chose ' + str(Computer))
   if PlayerOne == Computer:
     print('It is a tie!')
-    Scorecomputer = Scorecomputer + 1
-    ScorePlayer = ScorePlayer + 1
+    Scorecomputer = Scorecomputer 
+    ScorePlayer = ScorePlayer 
   elif PlayerOne == 'r' and Computer == 'p':
     print(' Computers Paper beats your rock! You lose! ')
     Scorecomputer = Scorecomputer + 1
@@ -35,7 +35,7 @@ while True:
   elif PlayerOne == 's' and Computer == 'r':
     print('Computers Rock beats your paper! You Lose!')
     Scorecomputer = Scorecomputer + 1
-    
+
   print('Do you want to keep playing?')
   print('1) Yes')
   print('2) No')
