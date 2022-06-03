@@ -8,7 +8,7 @@ while True:
   print('s for Scissors')
   PlayerOne = input('Pick r, p, or s. ')
   Computer = random.choice(['r', 'p', 's'])
-  print('The Computer chose ' + str(Computer))
+  
   if PlayerOne == Computer:
     print('It is a tie!')
     Scorecomputer = Scorecomputer 
@@ -35,7 +35,8 @@ while True:
   elif PlayerOne == 's' and Computer == 'r':
     print("Computer's Rock beats your paper! You Lose!")
     Scorecomputer = Scorecomputer + 1
-
+  else:
+    print('invalid entry, try again')
   print('Do you want to keep playing?')
   print('1) Yes')
   print('2) No')
